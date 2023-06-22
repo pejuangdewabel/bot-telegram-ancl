@@ -7,7 +7,7 @@ from datetime import datetime
 import csv
 
 # Inisialisasi bot dengan Telegram Bot API Token
-updater = Updater(token='6036886614:AAGnpxMhif4LNlepObnUCqLly1CajgdTjgc', use_context=True)
+updater = Updater(token='xxxxxxx', use_context=True)
 dispatcher = updater.dispatcher
 
 # Path file log CSV
@@ -16,10 +16,10 @@ log_file_path = 'request_log.csv'
 def connect_to_mysql():
     # Konfigurasi koneksi database MySQL
     config = {
-        'user': 'prasetyo',
-        'password': 'ancol2023',
-        'host': '172.16.5.1',
-        'database': 'dbawalive'
+        'user': 'x',
+        'password': 'x',
+        'host': 'x',
+        'database': 'x'
     }
     # Koneksi ke database
     cnx = mysql.connector.connect(**config)
